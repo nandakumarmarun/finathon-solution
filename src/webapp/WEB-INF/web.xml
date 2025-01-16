@@ -8,17 +8,6 @@
     <!-- Display Name for the Application -->
     <display-name>Wicket with Spring Integration</display-name>
 
-    <!-- Spring context configuration -->
-    <context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value>/WEB-INF/applicationContext.xml</param-value>
-    </context-param>
-
-    <!-- Listener: Spring's ContextLoaderListener -->
-    <listener>
-        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-    </listener>
-
     <!-- Wicket Filter -->
     <filter>
         <filter-name>WicketApplication</filter-name>

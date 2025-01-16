@@ -5,6 +5,6 @@ import org.apache.wicket.markup.html.basic.Label;
 
 public class HomePage extends WebPage {
     public HomePage() {
-        add(new Label("message", "Welcome to Wicket with Spring MVC!"));
+//        add(new Label("message", "Welcome to Wicket with Spring MVC!"));
     }
 }
